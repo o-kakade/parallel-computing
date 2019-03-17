@@ -10,6 +10,16 @@ This is calculated using
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=D&space;=&space;\frac{1}{T^2}&space;\sum_{i=1}^{6}&space;N_{i}(T-&space;N_{i})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?D&space;=&space;\frac{1}{T^2}&space;\sum_{i=1}^{6}&space;N_{i}(T-&space;N_{i})" title="D = \frac{1}{T^2} \sum_{i=1}^{6} N_{i}(T- N_{i})" /></a>
 
+where N<sub>i</sub> is the number of individuals in racial category i and T is the total number of individuals.
+
+The 6 racial categories are :
+
+1) White
+2) Black or African American
+3) American Indian or Alaska Native
+4) Asian
+5) Native Hawaiian or Other Pacific Islander
+6) Two or more races
 
 ## Output Example
 
