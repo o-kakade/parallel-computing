@@ -11,3 +11,4 @@ Programs span multiple discliplines of parallel programming namely
 3) GPU
 4) Map Reduce
 
+Each folder consists of README explaining what the programs do.
