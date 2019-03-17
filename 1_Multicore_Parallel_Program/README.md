@@ -11,6 +11,6 @@ In other words, if n is odd and n > 5, then n = p + 2q for some primes p and q. 
 ## Output Example
 
 ```
-java pj2 LemoineSeq 1000001 1999999
+$ java pj2 LemoineSeq 1000001 1999999
 1746551 = 1237 + 2*872657
 ```
