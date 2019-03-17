@@ -7,3 +7,10 @@ Every odd integer greater than 5 is the sum of a prime and twice a prime.
 
 ```
 In other words, if n is odd and n > 5, then n = p + 2q for some primes p and q. The primes p and q might or might not be the same.
+
+## Output Example
+
+```
+java pj2 LemoineSeq 1000001 1999999
+1746551 = 1237 + 2*872657
+```
