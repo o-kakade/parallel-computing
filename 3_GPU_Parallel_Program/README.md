@@ -2,7 +2,7 @@
 
 Program to compute modular cube root(s) in parallel on the GPU using a brute force search.
 
-RSA cyphertext encryption
+## RSA cyphertext encryption
 
 
 c = m<sup>3</sup>(mod n)
@@ -11,7 +11,7 @@ where c = ciphertext
 m = plaintext message
 
 
-Can decrypt without the private decryption key by computing a modular cube root
+## Can decrypt without the private decryption key by computing a modular cube root
 
 m = c <sup>1/3</sup> (mod n)
 
