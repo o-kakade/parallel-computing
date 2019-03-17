@@ -4,18 +4,17 @@ Program to compute modular cube root(s) in parallel on the GPU using a brute for
 
 RSA cyphertext encryption
 
-```
+
 c = m<sup>3</sup>(mod n)
 
 where c = ciphertext
 m = plaintext message
-```
+
 
 Goal is to get m without the private decryption key by computing a modular cube root
 
-```
 m = c <sup>1/3</sup> (mod n)
-```
+
 
 ## Output Example
 
