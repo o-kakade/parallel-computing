@@ -1,11 +1,20 @@
 # U.S Census Diversity Index
 
+Parallel Java Map Reduce (PJMR) job to analyze the census data and calculate the diversity index for every county in a given state or states for a given year. 
+
+The program also calculates the diversity index for the overall population of each state.
+
+Diversity Index for a population is the probability that two randomly chosen individuals in that population will be of different races.
+
+This is calculated using 
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=D&space;=&space;\frac{1}{T^2}&space;\sum_{i=1}^{6}&space;N_{i}(T-&space;N_{i})" target="_blank"><img src="https://latex.codecogs.com/gif.latex?D&space;=&space;\frac{1}{T^2}&space;\sum_{i=1}^{6}&space;N_{i}(T-&space;N_{i})" title="D = \frac{1}{T^2} \sum_{i=1}^{6} N_{i}(T- N_{i})" /></a>
+
+
 ## Output Example
 
 ```
-$ java pj2 jar=p4.jar DivIndex dr00,dr01,dr02,dr03,dr04,dr05,dr06,dr07,dr08,dr09 USCensus/cc-est2017-alldata.csv 10 "New York" "Delaware"
-Job 159 launched Mon Nov 19 09:54:44 EST 2018
-Job 159 started Mon Nov 19 09:54:44 EST 2018
+$ java pj2 jar=p4.jar DivIndex dr00,dr01,dr02,dr03,dr04,dr05 USCensus/cc-est2017-alldata.csv 10 "New York" "Delaware"
 Delaware		0.45971
 	New Castle County	0.50210
 	Kent County	0.48199
