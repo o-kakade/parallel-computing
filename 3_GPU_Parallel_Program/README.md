@@ -11,10 +11,11 @@ where c = ciphertext
 m = plaintext message
 
 
-Goal is to get m without the private decryption key by computing a modular cube root
+Can decrypt without the private decryption key by computing a modular cube root
 
 m = c <sup>1/3</sup> (mod n)
 
+Given c and modulus n, the program finds all cube roots of c (mod n).
 
 ## Output Example
 
